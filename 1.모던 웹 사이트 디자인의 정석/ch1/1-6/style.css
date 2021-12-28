@@ -1,0 +1,153 @@
+/* 1.6.1 */
+/* @media (min-width: 786px) {
+  .boxA:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .box2 {
+    float: left;
+    width: 70%;
+  }
+
+  .box3 {
+    float: left;
+    width: 30%;
+  }
+} */
+
+/* 1.6.2 */
+/* @media (min-width: 768px) {
+  .boxA:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .boxB {
+    float: left;
+    width: 80%;
+  }
+
+  .boxB:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .box4 {
+    float: left;
+    width: 20%;
+  }
+
+  .box2 {
+    float: right;
+    width: 75%;
+  }
+
+  .box3 {
+    float: left;
+    width: 25%;
+  }
+} */
+
+/* 1.6.3 */
+/* .boxA:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.boxB:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box2 {
+  float: right;
+  width: 75%;
+}
+
+.box3 {
+  float: left;
+  width: 25%;
+} */
+/* 
+@media (min-width: 768px) {
+  .boxA:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .boxB {
+    float: left;
+    width: 80%;
+  }
+
+  .box4 {
+    float: left;
+    width: 20%;
+    height: 400px;
+  }
+
+  .box2,
+  .box3 {
+    height: 400px;
+  }
+}
+
+@media (min-width: 600px) {
+  .boxB:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .box2 {
+    float: right;
+    width: 75%;
+  }
+
+  .box3 {
+    float: left;
+    width: 25%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+} */
+
+.boxA:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.boxB {
+  float: left;
+  width: 100%;
+}
+
+.box4 {
+  float: left;
+  width: 100%;
+}
+
+.boxB:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box2 {
+  float: right;
+  width: 75%;
+}
+
+.box3 {
+  float: left;
+  width: 25%;
+}
