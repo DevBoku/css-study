@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+body {
+  font-family: "맑은 고딕", "Apple SSD Gothic  Neo", sans-serif;
+}
+
+.site h1 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.site h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.story h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.story img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #75dbe7;
+}
+
+.menu ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.menu li {
+  float: left;
+  width: auto;
+}
+
+.story p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidemenu {
+  margin-bottom: 30px;
+}
+
+.sidemenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidemenu li a {
+  display: block;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.sidemenu li a:hover {
+  background-color: #eeeeee;
+}
+
+.sidemenu h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-bottom: dotted 2px #dddddd;
+  color: #666666;
+  font-size: 18px;
+}
+
+.recommend {
+  margin-bottom: 30px;
+}
+
+.recommend ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.recommend li a {
+  display: block;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.recommend li a:hover {
+  background-color: #eeeeee;
+}
+
+.recommend h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-bottom: dotted 2px #dddddd;
+  color: #666666;
+  font-size: 18px;
+}
+
+.popular ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.popular li a {
+  display: block;
+  padding: 5px;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.popular li a:hover {
+  background-color: #eeeeee;
+}
+
+.popular h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-bottom: dotted 2px #dddddd;
+  color: #666666;
+  font-size: 18px;
+}
+
+.copyright p {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+}
