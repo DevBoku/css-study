@@ -45,3 +45,45 @@
     clear: both;
   }
 }
+
+@media (max-width: 599px) {
+  .box1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .box3 {
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .box4-1 {
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .box4-2 {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+  }
+  
+  .box4:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 1040px) {
+  .box1, .box2, .boxA, .box5 {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
