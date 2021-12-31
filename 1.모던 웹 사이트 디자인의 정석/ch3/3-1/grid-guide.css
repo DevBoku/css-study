@@ -26,6 +26,11 @@
   border-top: solid 1px #dddddd;
 }
 
+.box1, .boxA, .box2-inner, .box5-inner {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media (min-width: 768px) {
   .box3 {
     float: left;
@@ -82,7 +87,7 @@
 }
 
 @media (min-width: 1040px) {
-  .box1, .box2, .boxA, .box5 {
+  .box1, .boxA, .box2-inner, .box5-inner {
     width: 1000px;
     margin: 0 auto;
   }
