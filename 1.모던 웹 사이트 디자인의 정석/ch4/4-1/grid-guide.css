@@ -1,0 +1,99 @@
+.box1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.box2 {
+  background-color: #7cbea1;
+}
+
+.box3 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.box4 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.box5 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.box5 {
+  border-top: solid 1px #dddddd;
+}
+
+.top .boxA {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box1, .boxA, .box2-inner, .box5-inner {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .box3 {
+    float: left;
+    width: 70%;
+    padding-right: 50px;
+  }
+  
+  .box4 {
+    float: left;
+    width: 30%;
+    height: auto;
+  }
+  
+  .boxA:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (max-width: 599px) {
+  .box1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .box3 {
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .box4-1 {
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .box4-2 {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+  }
+  
+  .box4:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 1040px) {
+  .box1, .boxA, .box2-inner, .box5-inner {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
